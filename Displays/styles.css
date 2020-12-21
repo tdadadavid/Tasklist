@@ -1,17 +1,19 @@
 body{
-    background:white;
+    background:Brown;
     margin: 0;
     padding: 0;
     text-align: center;
+    display: grid;
 }
 
 header{
-    background: cadetblue;
+    background: cornflowerblue;
     /*display: grid;*/
     width:100%;
     height:70px;
     justify-content: left;
     align-self:center;
+    margin-bottom: 10px;
     /*padding: 30px;*/
     /*grid-template-columns: 15% 10% 30% 10% 25%  ;*/
 
@@ -40,9 +42,9 @@ div.nav button{
     height:40px;
     width:100px;
     margin-right:60px;
-    margin-left:50px;
+    margin-left:20px;
     border-top-width: 3px;
-    border-radius: 20px;
+    border-radius: 50px;
     border-color: transparent;
     padding:10px;
     align-content: center;
@@ -53,10 +55,10 @@ div.nav button{
     display:grid;
     height:40px;
     width:100px;
-    margin-right:60px;
-    margin-left:50px;
+    margin-right:10px;
+    margin-left:20px;
     border-top-width: 3px;
-    border-radius: 20px;
+    border-radius: 50px;
     border-color: transparent;
     padding:10px;
     align-content: center;
@@ -69,10 +71,33 @@ div.nav button{
     border-color:silver;
 }
 
+.signin:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 #login:hover {
     background:silver;
     opacity:0.9;
     border-color:silver;
 }
 
+.login:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#image-con{
+    height: 600px;
+    width: 500px;
+    background: black;
+}
+
+/*div img{*/
+/*    height:60000px;*/
+/*    width:500px;*/
+/*    object-fit: cover;*/
+/*}*/
 
