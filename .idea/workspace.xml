@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="095a8f83-8298-4f5d-a504-85bbcd99feb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Displays/to do image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/connection.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/login.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/logout.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/signIn.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Todo-list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Todo-list.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Displays/partials/body.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Displays/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Displays/partials/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Displays/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Displays/partials/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Displays/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Displays/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -34,9 +44,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="last_opened_file_path" value="$USER_HOME$/.PhpStorm2017.2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xamppp\htdocs\Todo-list" />
       <recent name="C:\xamppp\htdocs\Todo-list\Displays" />
     </key>
   </component>
@@ -65,7 +78,8 @@
       <workItem from="1608393294760" duration="5052000" />
       <workItem from="1608460475653" duration="6934000" />
       <workItem from="1608469113919" duration="8976000" />
-      <workItem from="1608478328987" duration="6463000" />
+      <workItem from="1608478328987" duration="27876000" />
+      <workItem from="1608628304594" duration="14240000" />
     </task>
     <servers />
   </component>
@@ -82,5 +96,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

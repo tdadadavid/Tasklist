@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,25 +9,24 @@
     <title>Todo</title>
     <link type="text/css" rel="stylesheet" href="Displays/styles.css">
 </head>
-<body class="body">
 
+
+
+<body>
         <header>
             <div class="logo">TaskList</div>
-                <div class="nav">
-                    <button type ="submit" name ="login" id="login">Login</button>
-                    <button type =submit id="signin">Sign In</button>
-                </div>
+            <?php
+                if(isset($_SESSION['UserId'])){
+                    echo '<form action="includes/logout.inc.php" method="post">
+                             <button type="submit" name="logout-submit">logout</button>
+                          </form>';
+                }
+                else{
+                    echo '<a href="login.php">Log in</a>
+                          <a href="signup.php">Sign up</a>';
+                }
+            ?>
         </header>
-
-        <main>
-            <div class="image-con">
-<!--                <img src="Displays/to do image.jpg" alt="No image loaded">-->
-                    jcgjcjv
-
-            </div>
-        </main>
-
-
 </body>
 
 
