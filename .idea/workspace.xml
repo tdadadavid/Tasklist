@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="095a8f83-8298-4f5d-a504-85bbcd99feb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/includes/connection.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/login.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/logout.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/signIn.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Todo-list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Todo-list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Helperfunc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/Dashboard.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/edit.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Displays/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Displays/partials/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Displays/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Displays/partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Displays/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Displays/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/login.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/signIn.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/signIn.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1608648558" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1608648557" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
@@ -49,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.PhpStorm2017.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helpdesk" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,11 +80,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xamppp\htdocs\Todo-list\includes" />
       <recent name="C:\xamppp\htdocs\Todo-list" />
       <recent name="C:\xamppp\htdocs\Todo-list\Displays" />
     </key>
@@ -79,7 +102,12 @@
       <workItem from="1608460475653" duration="6934000" />
       <workItem from="1608469113919" duration="8976000" />
       <workItem from="1608478328987" duration="27876000" />
-      <workItem from="1608628304594" duration="14240000" />
+      <workItem from="1608628304594" duration="20177000" />
+      <workItem from="1608716118033" duration="16676000" />
+      <workItem from="1608802949735" duration="20017000" />
+      <workItem from="1608995010425" duration="1038000" />
+      <workItem from="1608996591847" duration="15749000" />
+      <workItem from="1609026749091" duration="13888000" />
     </task>
     <servers />
   </component>
@@ -97,5 +125,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

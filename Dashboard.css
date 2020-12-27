@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to right, #692e4c , #a25b5b , #692e4c);
+    padding:0;
+    margin:0;
+}
+
+.create-project{
+    background-color: white;
+    padding-top:20px;
+    padding-left:300px;
+}
+
+div form input{
+    width:400px;
+    height:20px;
+}
+
+div form button{
+    width:80px;
+    color:#692e4c;
+    background:#a25b5b;
+}
+
+table, tr, th {
+    border: 1px solid black;
+}

@@ -1,9 +1,15 @@
-<?php
-    require "Displays/partials/header.php";
-?>
+<?php require "Displays/partials/header.php"?>
 
 
 <section>
+
+    <?php
+         if (isset($_SESSION['Username'])){
+             echo '';
+         }
+
+    ?>
+
 
     <form action="includes/signIn.inc.php" method="post">
         <label>

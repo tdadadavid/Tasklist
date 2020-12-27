@@ -12,7 +12,7 @@
             exit();
         }
         else{
-            $sql = "SELECT Username , PASSWORD FROM tasklist.user WHERE  Username=?";
+            $sql = "SELECT id, Username , PASSWORD FROM tasklist.user WHERE  Username=?";
             $pdo = connection::connectToDatabase();
             $statement = $pdo->prepare($sql);
 //            var_dump($statement);
@@ -40,11 +40,11 @@
                     else if ($passwordVerification == true) {
                         session_start();
 
-                        $_SESSION['UserId'] = $resultCheck['id'];
                         $_SESSION['Username'] = $resultCheck['Username'];
+                        $_SESSION['UserId'] = $resultCheck['id'];
 
 
-                        header("Location: ../login.php?login=successful");
+                        header("Location: ../Dashboard.php?login=successful");
                         exit();
 
                     }

@@ -24,7 +24,7 @@
             header("Location: ../signup.php?error=Passwords don't match&email=" . $email ."&username=" . $username);
             exit();
         }else{
-            $sql = "SELECT Username FROM tasklist.user WHERE Username=?";
+            $sql = "SELECT id,Username FROM tasklist.user WHERE Username=?";
             $pdo = connection::connectToDatabase();
             $statement= $pdo->prepare($sql);
 
@@ -58,7 +58,12 @@
                         $statement->bindParam(3 , $hashedpassword);
                         $statement->execute();
 
-                        header("Location: ../signup.php?signup=successful");
+                        session_start();
+
+                        $_SESSION['Username'] = $resultCheck['Username'];
+                        $_SESSION['UserId'] = $resultCheck['id'];
+
+                        header("Location: ../Dashboard.php?signup=successful&user_id=");
                         exit();
 
                     }
