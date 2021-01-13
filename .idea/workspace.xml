@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="095a8f83-8298-4f5d-a504-85bbcd99feb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/Dashboard.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/Dashboard.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/edit.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/edit.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../helpdesk" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -96,7 +105,11 @@
       <workItem from="1608802949735" duration="20017000" />
       <workItem from="1608995010425" duration="1038000" />
       <workItem from="1608996591847" duration="15749000" />
-      <workItem from="1609026749091" duration="15533000" />
+      <workItem from="1609026749091" duration="16740000" />
+      <workItem from="1610438227954" duration="18206000" />
+      <workItem from="1610461400339" duration="825000" />
+      <workItem from="1610465892372" duration="2752000" />
+      <workItem from="1610476212593" duration="982000" />
     </task>
     <servers />
   </component>

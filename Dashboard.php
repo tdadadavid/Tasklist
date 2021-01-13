@@ -19,14 +19,6 @@
                     <button type="submit" name="add" >ADD &nbsp; <span>&#43;</span></button>
                 </form>
 
-                <br/><br/>
-
-                <form method="post" action="Dashboard.php">
-                    <input type="text" name="id" placeholder="Enter the id of the task"><br />
-                    <button type="submit" name="delete" >DELETE</button>
-                </form>
-
-                <br/><br/>
 
             </div>
     </body>
@@ -71,7 +63,7 @@
                <td>
                    <?php
                         $id= $result['id'];
-                        echo "<a href='edit.php?id=$id'>Link</a>";
+                        echo "<a href='edit.php?id=$id'>Edit</a>";
 
                    ?>
 <!--                   echo "<a href='".$link_address."'>Link</a>";-->
@@ -80,7 +72,7 @@
                <td>
                    <?php
                         $id= $result['id'];
-                        echo  "<a href='edit.php?id=$id'>DELETE</a>";
+                        echo  "<a href='Delete.php?id=$id'>DELETE</a>";
                    ?>
                </td>
 

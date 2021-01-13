@@ -26,20 +26,7 @@ session_start();
         }
     }
 
-    if(isset($_POST['delete'])){
-        $id = $_POST['id'];
-        $sql = "DELETE FROM tasklist.tasks WHERE  id=?";
-        $statement = $pdo->prepare($sql);
 
-        if (!$statement) {
-            header("Location: ../Dashboard.php?sqlerror=sqlerror");
-            echo 'There is no task with such id in your tasks';
-            exit();
-        }else{
-            $statement->bindParam(1, $id);
-            $statement->execute();
-        }
-    }
 
     $sql = "SELECT id , Taskname , Description FROM tasklist.tasks WHERE  user_id = ?";
     $statement = $pdo->prepare($sql);

@@ -1,20 +1,10 @@
 <?php
-
-    session_start();
-    require "includes/connection.inc.php";
-
-    $pdo = connection::connectToDatabase();
-     $id = $_GET['id'];
-
-        $sql = "SELECT Taskname , Description FROM tasklist.tasks where id = $id";
-        $statement = $pdo->prepare($sql);
-        $resultCheck = $statement->fetchAll(PDO::FETCH_ASSOC);
-        var_dump($resultCheck);
-
-?>
-
-    <form method="post" action="includes/edit.inc.php">
+//    $id = $_GET['id'];
+//    var_dump($id);
+//
+//?>
+   <form method="post" action="includes/edit.inc.php?<?php $id = $_GET["id"]; echo "id =  $id"; ?>">
         <input type="text" name="taskname" placeholder="Taskname"><br/>
         <input type="text" name="description" placeholder="Description"><br/>
-        <button type="submit" name="okay" >Okay</button>
+       <button type="submit" name="okay"> Okay </button>
     </form>
